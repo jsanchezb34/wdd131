@@ -49,6 +49,11 @@ main h2{
     padding: 1rem;
 }
 
+.temples img {
+    height: auto;
+    width: auto;
+}
+
 figcaption {
     display: grid;
     justify-items: center;
