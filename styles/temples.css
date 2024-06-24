@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
 
 
 :root {
@@ -32,9 +32,16 @@ header {
     background-color: var(--main-color);
 }
 
-nav a {
+nav a{
     color: var(--accent1-color);
+    font-family: var(--heading-font);
+    font-weight: 600;
     
+    
+}
+main {
+    display: grid;
+    justify-content:center;
 }
 main h2{
     display: flex;
@@ -44,18 +51,19 @@ main h2{
 
 .temples {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap:1rem;
-    padding: 1rem;
+    grid-template-columns: 1fr;
+    align-self: center;
 }
 
 .temples img {
+
     height: auto;
     width: auto;
 }
 
 figcaption {
     display: grid;
+    width: auto;
     justify-items: center;
     font-style: oblique;
     font-size: 1.5rem;
