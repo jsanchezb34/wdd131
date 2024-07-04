@@ -36,6 +36,8 @@ nav a{
     color: var(--accent1-color);
     font-family: var(--heading-font);
     font-weight: 600;
+    display: flex;
+    justify-content: center;
     
     
 }
