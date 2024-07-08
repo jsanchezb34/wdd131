@@ -6,7 +6,7 @@
     <title>Temples photo gallery - Jose Sanchez</title>
     <meta name="description" content="temples photo gallery">
     <link href="styles/temples.css" rel="stylesheet">
-    <link href="styles/temples-large.css" rel="stylesheet">
+    <link href="styles/temples-large.css" rel="stylesheet" media="screen and (min-width: 600px)">
 </head>
 <body>
     <header>
@@ -61,8 +61,15 @@
         </div>
     </main>
     <footer>
-        <p>2024  Jose-sánchez // Santa cruz-Bolivia</p>
-        <p>last modified</p>
+        <p>&copy; <span id="currentyear"></span> Jose Sánchez // Santa Cruz, Bolivia</p>
+        <p>Last modified: <span id="lastmodified"></span></p>
     </footer>
+    <script defer src="scripts/temples.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          document.getElementById('currentyear').textContent = new Date().getFullYear();
+          document.getElementById('lastmodified').textContent = document.lastModified; 
+        });
+    </script>
 </body>
 </html>

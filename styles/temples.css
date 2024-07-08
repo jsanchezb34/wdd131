@@ -28,6 +28,8 @@ body {
 
 header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 1rem;
     background-color: var(--main-color);
 }
@@ -36,40 +38,40 @@ nav a{
     color: var(--accent1-color);
     font-family: var(--heading-font);
     font-weight: 600;
-    display: flex;
     justify-content: center;
-    
-    
+    padding: 0.5rem;
 }
 main {
     display: grid;
-    justify-content:center;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
 }
 main h2{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     
 }
 
 .temples {
     display: grid;
     grid-template-columns: 1fr;
+    gap: 1rem;
     align-self: center;
 }
 
 .temples img {
-
+    max-width: 100%;
     height: auto;
-    width: auto;
+
 }
 
 figcaption {
-    display: grid;
     width: auto;
     justify-items: center;
     font-style: oblique;
     font-size: 1.5rem;
     background-color: var(--accent2-color);
+    padding: 0.5rem
 }
 
 footer  {
