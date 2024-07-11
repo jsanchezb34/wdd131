@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place - weeko3 assignment</title>
+    <meta name="description" content="temples photo gallery">
+    <link href="styles/place.css" rel="stylesheet">
+    <link href="styles/place-large.css" rel="stylesheet" media="screen and (min-width: 600px)">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <head>
+        <h1>Madagascar</h1>
+    </head>
+    <main>
+        <section id="image">
+            <img src="" alt="">
+        </section>
+        <section id="data">
+            <h2>Data</h2>
+            <ul>
+                <li><span>Label:</span> <span>Value</span></li>
+                <li><span>Label:</span> <span>Value</span></li>
+                <li><span>Label:</span> <span>Value</span></li>
+                <li><span>Label:</span> <span>Value</span></li>
+                <li><span>Label:</span> <span>Value</span></li>
+            </ul>
+        </section>
+        <section id="weather">
+            <h2>Weather</h2>
+            <div>
+                <img src="weather-icon.jpg" alt="Weather Icon" width="100">
+            </div>
+            <ul>
+                <li><span>Label:</span> <span>Value</span></li>
+                <li><span>Label:</span> <span>Value</span></li>
+                <li><span>Label:</span> <span>Value</span></li>
+                <li><span>Label:</span> <span>Value</span></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Jose Sánchez // Santa Cruz, Bolivia</p>
+        <p>Last modified: <span id="lastmodified"></span></p>
+    </footer>
+    <script defer src="scripts/temples.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          document.getElementById('currentyear').textContent = new Date().getFullYear();
+          document.getElementById('lastmodified').textContent = document.lastModified; 
+        });
+    </script>
+
+    </main>
+
+    
+</body>
+</html>
