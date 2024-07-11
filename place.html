@@ -6,16 +6,19 @@
     <title>Place - weeko3 assignment</title>
     <meta name="description" content="temples photo gallery">
     <link href="styles/place.css" rel="stylesheet">
-    <link href="styles/place-large.css" rel="stylesheet" media="screen and (min-width: 600px)">
+    <link href="styles/place-large.css" rel="stylesheet" media="screen and (min-width: 700px)">
     <script src="scripts/place.js" defer></script>
 </head>
 <body>
-    <head>
+    <header>
         <h1>Madagascar</h1>
-    </head>
+    </header>
     <main>
         <section id="image">
-            <img src="" alt="">
+            <picture>
+                <source media="(min-width: 700px)" srcset="images/madagascar-large.webp">
+                <img src="images/madagascar-small.webp" alt="lemur image">
+            </picture>
         </section>
         <section id="data">
             <h2>Data</h2>
