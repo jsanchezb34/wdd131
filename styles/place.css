@@ -42,10 +42,7 @@ header {
     border-bottom: 30px solid var(--secondary-color);
 }
 
-section {
-    display: flex;
-    justify-content: center;
-}
+
 
 img {
     width: 100%;
@@ -53,6 +50,8 @@ img {
     display: flex;
     justify-content: center;
 }
+
+
 
 #data {
     display: flex;
@@ -80,17 +79,21 @@ max-width: 600px;
 margin: 20px auto;
 text-align: center;
 padding: 15px;
-border: 1px solid #999;
 }
 
 #weather h2 {
   text-align: center;
 }
+
+#weather h2::after{
+    content: "🌤️" ;
+    margin: 10px;
+}
 #weather ul {
     text-align: center;
 }
 #weather img {
-    width: 10rem;
+    display: none;
     
 }
 

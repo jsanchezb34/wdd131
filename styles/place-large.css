@@ -1,0 +1,59 @@
+@media screen and (min-width: 700px) 
+{
+
+main {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    align-items: self-start;
+}
+
+h2 {
+    background-color: #007B3E;
+    color: antiquewhite;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: px;
+}
+
+#image {
+    position: relative;
+}
+
+#image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#data, #weather {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#weather {
+    bottom: 50px;
+    top: auto;
+    right: 40px;
+    left: auto;
+}
+
+#data {
+    top: 50px;
+    left: 3rem;
+    right: auto;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+}
