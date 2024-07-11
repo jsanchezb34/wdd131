@@ -145,7 +145,7 @@ nav a:hover {
 }
 
 footer {
-    font-grasize: 2rem;
+    font-size: 2rem;
     background-color: var(--secondary-color);
     border-radius: 5rem;
     display: flex;

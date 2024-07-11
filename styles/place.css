@@ -4,7 +4,7 @@
 :root {
     --main-color : #c40b40;
     --primary-color:#F2F2F2 ;
-    --secondary-color:#252525 ;
+    --secondary-color:#007B3E ;
     --accent1-color: #F3CF06 ;
     --accent2-color: #E0D114;
     
@@ -24,6 +24,14 @@
     h2, h3, h4, h5, h6, p {
         font-family:var(--heading-font);
     }
+
+    ul {
+        font-family:var(--heading-font);
+        list-style-type: none;
+
+    }
+
+
 header {
     background-color: var(--main-color);
     color: var(--primary-color);
@@ -31,6 +39,67 @@ header {
     margin: 0%;
     display: flex;
     justify-content: center;
+    border-bottom: 30px solid var(--secondary-color);
 }
 
-main img
+section {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+
+#data {
+    display: flex;
+    flex-direction: column;
+    margin: 600px;
+    max-width: 600px; 
+    margin: 0 auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+#data h2 {
+    text-align: center;
+}
+#data ul {
+    text-align: center;
+}
+
+
+#weather {
+display: flex;
+flex-direction: column;
+justify-content: center;
+max-width: 600px;
+margin: 20px auto;
+text-align: center;
+padding: 15px;
+border: 1px solid #999;
+}
+
+#weather h2 {
+  text-align: center;
+}
+#weather ul {
+    text-align: center;
+}
+#weather img {
+    width: 10rem;
+    
+}
+
+footer {
+    font-size: 1.5rem;
+    background-color: var(--main-color);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--primary-color);
+}
