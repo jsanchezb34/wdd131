@@ -65,6 +65,8 @@ img {
 }
 #data h2 {
     text-align: center;
+    width: 7rem;
+    
 }
 #data ul {
     text-align: center;
@@ -83,17 +85,19 @@ padding: 15px;
 
 #weather h2 {
   text-align: center;
+  margin: auto;
 }
 
-#weather h2::after{
-    content: "🌤️" ;
-    margin: 10px;
-}
+
 #weather ul {
     text-align: center;
+    margin: auto;
 }
 #weather img {
-    display: none;
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 10rem;
     
 }
 
