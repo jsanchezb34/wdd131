@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+
+
+:root {
+    --main-color : #464873;
+    --primary-color:#F2F2F2 ;
+    --secondary-color:#39402C ;
+    --accent1-color: #BFB3A4 ;
+    --accent2-color: #BFAF5E;
+    
+    --heading-font: 'Playwrite NZ';
+    --paragraph-font: 'Playwrite NZ';
+    
+    --nav-background-color:#588157;
+    --nav-link-color:#344E41;
+    --nav-hover-link-color:var(--accent1-color);
+    --nav-hover-background-color:#A3B18A;
+    }
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family:var(--heading-font);
+    color: white;
+}
+
+body {
+    background-color: var(--accent1-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--main-color);
+}
+
+nav a {
+    display: none;
+}
+
+
+header img {
+    position: absolute;
+    right: 8%;
+    top: 3rem;
+    width: 3rem;
+
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+}
+main h2{
+    text-align: center;
+    
+}
+
+.temples {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    align-self: center;
+}
+
+.temples img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+figcaption {
+    width: auto;
+    justify-items: center;
+    font-style: oblique;
+    font-size: 1.5rem;
+    background-color: var(--accent2-color);
+    padding: 0.5rem
+}
+
+footer  {
+    background-color:var(--secondary-color);
+    display: grid;
+    justify-content: center;
+}
