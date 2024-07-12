@@ -27,7 +27,7 @@
 
     <main>
         <h2>Home</h2>
-        <div class="temples-container">
+        <div id="temples-container" class="temples-container">
         </div>
         <script src="scripts/temple.js"></script>
     </main>
@@ -36,7 +36,6 @@
         <p>&copy; <span id="currentyear"></span> Jose Sánchez // Santa Cruz, Bolivia</p>
         <p>Last modified: <span id="lastmodified"></span></p>
     </footer>
-    <script defer src="scripts/temple.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
           document.getElementById('currentyear').textContent = new Date().getFullYear();
