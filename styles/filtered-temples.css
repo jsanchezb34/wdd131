@@ -52,7 +52,6 @@ main {
 }
 main h2{
     text-align: center;
-    
 }
 
 .temples-container {
@@ -79,7 +78,7 @@ figcaption {
 }
 
 footer  {
-    background-color:var(--secondary-color);
+    background-color:var(--main-color);
     display: grid;
     justify-content: center;
 }
