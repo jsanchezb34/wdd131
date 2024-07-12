@@ -1,30 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
 
 
 :root {
-    --main-color : #464873;
-    --primary-color:#F2F2F2 ;
-    --secondary-color:#39402C ;
-    --accent1-color: #BFB3A4 ;
-    --accent2-color: #BFAF5E;
+    --main-color: #B0A475;
+    --primary-color: #FFFFFF;
+    --secondary-color: #4F3F34;
+    --accent1-color: #9E8B6E; 
+    --accent2-color: #181817; 
+    --black-transparent: rgba(0, 0, 0, 0.5);
     
-    --heading-font: 'Playwrite NZ';
-    --paragraph-font: 'Playwrite NZ';
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Playfair Display', serif;
     
-    --nav-background-color:#588157;
-    --nav-link-color:#344E41;
-    --nav-hover-link-color:var(--accent1-color);
-    --nav-hover-background-color:#A3B18A;
-    }
-
+    --nav-background-color: #5A4C42; 
+    --nav-link-color: #3B3027; 
+    --nav-hover-link-color: var(--accent1-color);
+    --nav-hover-background-color: #A68A6D; 
+}
 h1, h2, h3, h4, h5, h6, p {
     font-family:var(--heading-font);
-    color: white;
+    color:var(--accent2-color)
 }
 
-body {
-    background-color: var(--accent1-color);
-}
 
 header {
     display: flex;
@@ -49,22 +46,24 @@ header img {
 main {
     display: grid;
     grid-template-columns: 1fr;
+    justify-self: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 1rem; 
 }
 main h2{
     text-align: center;
     
 }
 
-.temples {
+.temples-container {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 1rem;
     gap: 1rem;
     align-self: center;
 }
 
-.temples img {
+.temples-container img {
     max-width: 100%;
     height: auto;
 
