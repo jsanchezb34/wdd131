@@ -59,26 +59,26 @@ const temples = [
     templeName: "Cochabamba Bolivia Temple",
       location: "Cochabamba, Bolivia",
       dedicated: "2000, April, 30",
-      area: 116642,
+      area: 33302,
       imageUrl:
-      "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+      "https://churchofjesuschrist.org/imgs/e012ebb4075dc7976a314471fc0a3b3058e37c1a/full/320%2C/0/default"
     },
     {
-        templeName: "Mexico City Mexico",
-          location: "Mexico City, Mexico",
-          dedicated: "1983, December, 2",
-          area: 116642,
+        templeName: "Boise Idaho Temple",
+          location: "Boise, Idaho",
+          dedicated: "1984, May, 25",
+          area: 35868,
           imageUrl:
-          "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
-    },
+          "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/800x500/1-Boise-Idaho-Temple-1968984.jpg"
+          },
     {
-    templeName: "Mexico City Mexico",
-        location: "Mexico City, Mexico",
-        dedicated: "1983, December, 2",
-        area: 116642,
+    templeName: "Logan Utah Temple",
+        location: "Logan, Utah",
+        dedicated: "1884, May, 17",
+        area: 1119619,
         imageUrl:
-        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
-    },
+        "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/logan-utah/800x500/logan-temple-lds-776133-wallpaper.jpg"
+        },
     
   ];
 
