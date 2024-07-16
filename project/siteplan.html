@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreativeWeb Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --main-color: #0D0D0D;
+            --primary-color: #F2F2F2;
+            --secondary-color: #252525;
+            --accent1-color: #F3CF06;
+            --accent2-color: #E0D114;
+            
+            --heading-font: 'Oswald', sans-serif;
+            --paragraph-font: 'Oswald', sans-serif;
+        }
+
+        body {
+            font-family: var(--paragraph-font);
+            background-color: var(--primary-color);
+            color: var(--main-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--heading-font);
+            color: var(--main-color);
+        }
+
+        .section {
+            padding: 20px;
+            background-color: var(--secondary-color);
+            color: var(--primary-color);
+            margin: 20px;
+            border-radius: 5px;
+        }
+
+        .accent-color {
+            color: var(--accent1-color);
+        }
+
+        .button {
+            background-color: var(--accent1-color);
+            color: var(--primary-color);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CreativeWeb Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="about" class="section">
+        <h2>Sobre mí</h2>
+        <p>Descripción sobre el diseñador web.</p>
+    </section>
+    <section id="projects" class="section">
+        <h2>Proyectos</h2>
+        <p>Galería de proyectos destacados.</p>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contacto</h2>
+        <p>Formulario de contacto y enlaces a redes sociales.</p>
+    </section>
+</body>
+</html>
