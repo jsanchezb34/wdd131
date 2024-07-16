@@ -142,8 +142,10 @@ nav a {
     transition: .5s;
 }
 nav a:hover {
+    color: var(--accent1-color);
     transition: .5s;
     scale: 2;
+    text-shadow: 0 0 10px var(--accent1-color);
 }
 
 footer {
