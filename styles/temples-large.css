@@ -17,7 +17,7 @@
     }
     nav a{
         display: flex;
-        color: var(--accent1-color);
+        color: var(--accent2-color);
         font-family: var(--heading-font);
         font-weight: 600;
         justify-content: center;
@@ -42,7 +42,7 @@ header img {
         align-self: center;
     }
     nav a{
-        color: var(--accent1-color);
+        color: var(--accent12color);
         font-family: var(--heading-font);
         font-weight: 600;
         justify-content: center;

@@ -33,6 +33,7 @@ header {
 
 nav a {
     display: none;
+    color: var(--accent2-color);
 }
 
 

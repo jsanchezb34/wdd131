@@ -12,7 +12,7 @@ nav a {
     font-weight: 100;
     display: inline-block;
     margin:0.5rem;
-    color: var(--nav-link-color);
+    
 }
 nav a:hover {
     color: white;
