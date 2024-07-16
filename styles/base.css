@@ -145,12 +145,19 @@ nav a:hover {
 }
 
 footer {
-    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5rem;
+    
     background-color: var(--secondary-color);
     border-radius: 5rem;
     display: flex;
     justify-content: center;
     color: var(--primary-color);
+}
 
-
+footer p {
+    margin: 0;
+    padding: 1rem;
 }
