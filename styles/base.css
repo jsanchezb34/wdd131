@@ -139,9 +139,11 @@ nav a {
     color:var(--primary-color);
     margin-bottom: 50%;
     padding: 2rem;
+    transition: .5s;
 }
 nav a:hover {
-    color: var(--nav-hover-link-color);
+    transition: .5s;
+    scale: 2;
 }
 
 footer {
