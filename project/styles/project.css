@@ -126,8 +126,8 @@ main {
 
 .card2 {
     background-color: var(--accent1-color);
-    padding: 20px;
-    border-radius: 8px;
+    padding: 1rem;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -144,22 +144,3 @@ main {
     width: 100%;
     margin-top: 10px;
 }
-
-.card2 figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 10px;
-}
-
-.card2 img {
-    max-width: 200px; /* Ajusta este valor según el tamaño de tus íconos */
-    height: auto;
-}
-
-.card2 figcaption {
-    margin-top: 8px;
-    font-size: 14px;
-    color: #333;
-}
-
