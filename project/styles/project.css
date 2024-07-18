@@ -1,0 +1,157 @@
+:root {
+    --main-color: #0D0D0D;
+    --primary-color: #F2F2F2;
+    --secondary-color: #252525;
+    --accent1-color: #F3CF06;
+    --accent2-color: #E0D114;
+    
+    --heading-font: 'Oswald', sans-serif;
+    --paragraph-font: 'Oswald', sans-serif;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    background-color: var(--main-color);
+    color: var(--main-color);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--accent1-color);
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: var(--accent1-color);
+}
+
+nav ul {
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul :hover {
+    scale: 2;
+    color: var(--main-color);
+    transition: 0.5s;
+}
+nav a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.card {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card .image {
+    width: 100px;
+    height: 100px;
+    margin-right: 5rem;
+    background-color: var(--accent2-color);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.card h2 {
+    margin: 0 0 1rem 0;
+    margin-left: 5rem;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+.card p {
+    margin: 0;
+    margin-left: 5rem;
+    max-width: 10rem;
+    font-family: var(--paragraph-font);
+}
+
+.card2 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    gap: 1rem;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.card2 .content {
+    display: flex;
+    flex-direction: column;
+    flex-direction: ;
+    flex: 1;
+}
+
+.card2 .image {
+    width: 100px;
+    height: 100px;
+    margin-right: 5rem;
+    background-color: var(--accent2-color);
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.card2 h2 {
+    margin: 0 0 1rem 0;
+    margin-left: 5rem;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+.card2 p {
+    margin: 0;
+    margin-left: 5rem;
+    max-width: 10rem;
+    font-family: var(--paragraph-font);
+}
