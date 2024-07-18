@@ -127,8 +127,7 @@ main {
 .card2 {
     background-color: var(--accent1-color);
     padding: 1rem;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
 }
 
 .card2 .content {
@@ -144,3 +143,11 @@ main {
     width: 100%;
     margin-top: 10px;
 }
+
+.card2 img {
+    width: 150px;
+    height: auto;
+}
+
+
+
