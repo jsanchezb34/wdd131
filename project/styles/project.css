@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap");
+
 :root {
     --main-color: #0D0D0D;
     --primary-color: #F2F2F2;
@@ -5,8 +7,8 @@
     --accent1-color: #F3CF06;
     --accent2-color: #E0D114;
     
-    --heading-font: 'Oswald', sans-serif;
-    --paragraph-font: 'Oswald', sans-serif;
+    --heading-font: 'Dosis', sans-serif;
+    --paragraph-font: 'Dosis', sans-serif;
 }
 
 body {
@@ -17,9 +19,19 @@ body {
 
 header {
     display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 1rem;
     background-color: var(--accent1-color);
+    border-radius: 50px;
+}
+
+header H1 {
+    font-size: 5rem;
+}
+
+header img {
+    display: none;
 }
 .logo {
     width: 50px;
@@ -28,25 +40,24 @@ header {
     margin-right: 20px;
 }
 
-nav {
-    background-color: var(--accent1-color);
-}
-
-nav ul {
-    color: var(--main-color);
+nav ul { 
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex;
     gap: 25px;
+    transition: 1s;
+}
+
+nav ul li a  {
+    color: var(--main-color);
 }
 
 nav ul :hover {
     scale: 2;
     color: var(--main-color);
-    transition: 0.5s;
+    transition: .6s;
 }
 nav a {
     text-decoration: none;
@@ -58,40 +69,33 @@ main {
     padding: 2rem 0;
 }
 
-.card {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    padding: 1.5rem;
-    margin-bottom: 2rem;
-    border-radius: 10px;
-    gap: 1rem;
-}
+
 
 .card {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--secondary-color);
     color: var(--primary-color);
-    padding: 1.5rem;
     margin-bottom: 2rem;
+    border-radius: 20px;
+    max-width: 600px;
+    margin:auto;
+    box-shadow:0 0 30px var(--secondary-color);
+    margin-bottom: 3rem;
+
+}
+
+.image {
+    flex: 1; 
+    text-align: right; 
+}
+
+.image img {
+    max-width: 100%; 
+    height: auto; 
     border-radius: 10px;
 }
 
-.card .content {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.card .image {
-    width: 100px;
-    height: 100px;
-    margin-right: 5rem;
-    background-color: var(--accent2-color);
-    border-radius: 10px;
-    margin-left: 20px;
-}
 .card h2 {
     margin: 0 0 1rem 0;
     margin-left: 5rem;
@@ -129,7 +133,6 @@ main {
 .card2 .content {
     display: flex;
     flex-direction: column;
-    flex-direction: ;
     flex: 1;
 }
 
