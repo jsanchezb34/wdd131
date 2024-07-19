@@ -48,7 +48,7 @@ header img {
 }
 
 nav ul {
-    font-size: 4rem;
+    font-size: 2rem;
     font-weight: 600; 
     display: flex;
     justify-content: center;
@@ -85,17 +85,13 @@ main {
 }
 
 .card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: var(--primary-color);
-    margin-bottom: 2rem;
-    border-radius: 30px;
-    max-width: 800px;
-    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     box-shadow:0 0 30px var(--secondary-color);
     margin-bottom: 3rem;
-
+    justify-content: center;
+    border-radius: 30px;
+    margin: 1.5rem;
 }
 
 .image {
@@ -111,34 +107,33 @@ main {
 }
 
 
-
-
 .card h2 {
-    margin: 0 0 1rem 0;
+    font-size: clamp(2rem, 2.5vw, 3rem);
     margin-left: 5rem;
-    font-size: 5rem;
     font-family: var(--heading-font);
     color: var(--accent1-color);
 }
 
 .card p {
-    margin: 0;
     margin-left: 5rem;
-    max-width: 15rem;
-    font-size:30px;
+    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .card2 {
     background-color: var(--accent1-color);
     padding: 1rem;
     border-radius: 30px;
-}
-
-.card2 .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    width: 90%; 
+    margin: 0 auto;
 }
 
 .card2 .icons {
@@ -148,10 +143,7 @@ main {
     margin-top: 10px;
 }
 
-.card2 img {
-    width: 150px;
-    height: auto;
-}
+
 
 /* For gallery*/
 
