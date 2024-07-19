@@ -55,7 +55,7 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 20%;
+    gap: 10%;
     transition: 1s;
 }
 
@@ -81,6 +81,10 @@ nav a {
 
 main {
     padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 #experience {
@@ -193,6 +197,57 @@ main {
 /* For contact*/
 
 /* For profile*/
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea verticalmente el contenido al centro */
+    gap: 30px; /* Espacio entre la imagen y el texto */
+}
+
+
+
+.profile-header h1 {
+    margin: 0; 
+    font-size: clamp(3rem, 5vw, 5rem);
+}
+
+.profile-header p {
+    margin: 0;
+    font-size: clamp(1.5rem, 3vw, 4rem); 
+}
+
+.profile-header img {
+    width:50vw;
+    height: auto;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1); 
+        box-shadow: 0 0 20px var(--accent1-color), 0 0 30px var(--accent1-color), 0 0 40px var(--accent1-color);
+    }
+    50% {
+        transform: scale(1.05); 
+        box-shadow: 0 0 30px var(--accent1-color), 0 0 40px var(--accent1-color), 0 0 50px var(--accent1-color);
+    }
+    100% {
+        transform: scale(1); 
+        box-shadow: 0 0 20px var(--accent1-color), 0 0 30px var(--accent1-color), 0 0 40px var(--accent1-color);
+    }
+}
+
+.profile-info {
+    box-shadow:0 0 30px var(--secondary-color);
+    margin-bottom: 3rem;
+    justify-content: center;
+    border-radius: 30px;
+    margin: 1.5rem;
+    padding: 2rem;
+
+}
 
 
 
