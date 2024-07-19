@@ -150,9 +150,44 @@ main {
 
 /* For gallery*/
 
-/* For gallery*/
+.gallery img {
+    border-radius: 20px;
+}
 
-/* For gallery*/
+.gallery  h2{
+    text-align: center;
+    color:var(--accent1-color);
+    scale: 2;
+}
+
+.section {
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+    width: 100%;
+}
+
+.gallerycard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallerycard img {
+    order: 1; 
+}
+
+.gallerycard p {
+    order: 2;
+}
+
+.gallerycard .secondary-images {
+    order: 3;}
+
+
+/* For contact*/
+
+/* For profile*/
 
 
 
