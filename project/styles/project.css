@@ -48,7 +48,7 @@ header img {
 }
 
 nav ul {
-    font-size: 2rem;
+    font-size: clamp(2.5rem, 4vw, 4rem);
     font-weight: 600; 
     display: flex;
     justify-content: center;
@@ -61,6 +61,11 @@ nav ul {
 
 nav ul li a  {
     color: var(--main-color);
+}
+
+nav ul li a img {
+    display: flex;
+    justify-content: center;
 }
 
 nav ul :hover {
