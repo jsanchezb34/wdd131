@@ -104,6 +104,8 @@ main {
     max-width: 100%; 
     height: auto; 
     border-radius: 30px;
+    margin-bottom: 0;
+    margin-right: 0;
 }
 
 
@@ -122,10 +124,11 @@ main {
     height: 100%;
 }
 
+
+
 .content {
     display: flex;
     flex-direction: column;
-    
 }
 
 .card2 {
