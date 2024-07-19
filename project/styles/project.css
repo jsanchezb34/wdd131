@@ -196,6 +196,32 @@ main {
 
 /* For contact*/
 
+.contact-form {
+    position: relative; 
+} 
+
+.contact-form h1 {
+        font-size: 4rem ;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        background-color:rgba(0, 0, 0, 0.7) ;
+        width: 100% ;
+    }
+    
+.contact-form {
+    font-size: 1.2rem;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 220px;
+    background-color:rgba(0, 0, 0, 0.7);
+    width:100%;
+    max-width: 960px;
+}
+
 /* For profile*/
 
 .profile-header {
