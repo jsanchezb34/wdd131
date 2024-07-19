@@ -56,7 +56,6 @@ nav ul {
     padding: 0;
     margin: 0;
     gap: 10%;
-    transition: 1s;
 }
 
 nav ul li a  {
@@ -225,10 +224,11 @@ main {
 /* For profile*/
 
 .profile-header {
+    margin: 5rem;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alinea verticalmente el contenido al centro */
-    gap: 30px; /* Espacio entre la imagen y el texto */
+    align-items: center;
+    gap: 30px; 
 }
 
 
@@ -265,15 +265,35 @@ main {
     }
 }
 
-.profile-info {
+
+
+/*profile experience bar*/
+
+.profile-info, .profile-skills{
     box-shadow:0 0 30px var(--secondary-color);
     margin-bottom: 3rem;
     justify-content: center;
     border-radius: 30px;
     margin: 1.5rem;
     padding: 2rem;
+    text-align: center;
 
 }
+
+
+
+.profile-skills ul{
+    background-color: var(--accent1-color);
+    border-radius: 30px;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: clamp(2.5rem, 4vw, 4rem);
+    gap: 2rem;
+    width: auto;
+}
+
+
+
 
 
 
