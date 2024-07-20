@@ -195,30 +195,114 @@ main {
 
 /* For contact*/
 
-.contact-form {
-    position: relative; 
-} 
+/* social media links*/
 
-.contact-form h1 {
-        font-size: 4rem ;
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        background-color:rgba(0, 0, 0, 0.7) ;
-        width: 100% ;
-    }
-    
-.contact-form {
-    font-size: 1.2rem;
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.social-media {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    margin-top: 220px;
-    background-color:rgba(0, 0, 0, 0.7);
-    width:100%;
-    max-width: 960px;
+}
+
+.social-media h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    margin-bottom: 20px;
+}
+
+.social-media ul {
+    background-color: var(--accent1-color);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 10px;
+    list-style: none; 
+    margin: 0;
+}
+
+.social-media li {
+    margin: 0 10px;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: var(--main-color);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media img {
+    width: 5rem; 
+    height: 40px; 
+    margin-bottom: 5px; 
+}
+
+.social-media span {
+    font-family: var(--paragraph-font);
+    font-size: 1rem;
+}
+
+/* contact form*/
+
+.contact-form {
+    background-color: var(--main-color);
+    padding: 25px;
+    border-radius:30px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    border:  var(--accent1-color);
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    margin-left: 2vw ;
+    color: var(--primary-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    font-family: var(--paragraph-font);
+    background-color: var(--secondary-color);
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.contact-form button {
+    padding: 20px 20px;
+    margin: auto;
+    width: 50%;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    font-size: 4vw;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 1s ease, transform 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent2-color);
+    background-color: var(--accent2-color); /* Color de fondo al pasar el cursor */
+    transform: scale(1.05);
+    animation:pulse 2s infinite;
 }
 
 /* For profile*/
