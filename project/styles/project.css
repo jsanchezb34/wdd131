@@ -28,11 +28,10 @@ header {
     padding: 2rem;
     background-color: var(--accent1-color);
     border-radius: 50px;
-    margin-top: 2rem;
 }
 
 header H1 {
-    font-size: 5rem;
+    font-size: clamp (2.5rem, 4vw, 4rem);
     margin: 0;
     display: none;
 }
@@ -48,13 +47,15 @@ header img {
 }
 
 nav ul {
-    font-size: clamp(2.5rem, 4vw, 4rem);
+    font-size: clamp(1rem, 6vw, 5rem);
     font-weight: 600; 
     display: flex;
     justify-content: center;
     list-style: none;
     padding: 0;
     margin: 0;
+    margin-left: 5rem;
+    margin-right: 5rem;
     gap: 10%;
 }
 
