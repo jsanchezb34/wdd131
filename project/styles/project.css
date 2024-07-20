@@ -200,7 +200,7 @@ main {
 .social-media {
     padding: 20px;
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 90%;
     margin: 0 auto;
     text-align: center;
 }
@@ -217,7 +217,7 @@ main {
     display: flex;
     justify-content: center; 
     align-items: center;
-    padding: 10px;
+    padding: 40px;
     list-style: none; 
     margin: 0;
 }
@@ -235,10 +235,16 @@ main {
 }
 
 .social-media img {
-    width: 5rem; 
-    height: 40px; 
+    width:clamp(30px, 50vw, 100px); 
+    height: auto; 
     margin-bottom: 5px; 
 }
+
+.social-media img:hover {
+    transform: scale(1.5);
+    transition: .5s;
+}
+
 
 .social-media span {
     font-family: var(--paragraph-font);
