@@ -232,7 +232,6 @@ main {
 }
 
 
-
 .profile-header h1 {
     margin: 0; 
     font-size: clamp(3rem, 5vw, 5rem);
@@ -265,6 +264,18 @@ main {
     }
 }
 
+#profilecontent h2 {
+    color: var(--accent2-color);
+    font-size: clamp(1rem, 4vw, 4rem);
+
+}
+
+#profilecontent p {
+    color: var(--primary-color);
+    font-size: clamp(1rem, 2vw, 4rem);
+    padding: 1vw;
+
+}
 
 
 /*profile experience bar*/
@@ -290,6 +301,25 @@ main {
     font-size: clamp(2.5rem, 4vw, 4rem);
     gap: 2rem;
     width: auto;
+}
+
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--accent1-color); 
+    color:var(--main-color);
+    text-decoration: none; 
+    border-radius: 30px; 
+    font-size: clamp(2.5rem, 4vw, 4rem) ;
+    text-align: center; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.contact-button:hover {
+    background-color: var(--accent2-color); /* Color de fondo al pasar el cursor */
+    transform: scale(1.05);
+    animation:pulse 2s infinite; 
 }
 
 
