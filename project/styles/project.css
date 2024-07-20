@@ -155,6 +155,14 @@ main {
     margin-top: 10px;
 }
 
+.card2 .icon {
+    height: clamp(5rem, 10vw, 10rem);
+}
+
+.card2 .icon img {
+    height: clamp(4rem, 6vw, 10rem);
+}
+
 
 
 /* For gallery*/
@@ -336,6 +344,7 @@ main {
     font-size: clamp(1.5rem, 3vw, 4rem); 
 }
 
+
 .profile-header img {
     width:50vw;
     height: auto;
@@ -366,8 +375,8 @@ main {
 
 #profilecontent p {
     color: var(--primary-color);
-    font-size: clamp(1rem, 2vw, 4rem);
-    padding: 1vw;
+    font-size: clamp(1.5rem, 3vw, 4rem);
+    padding: 2vw;
 
 }
 
@@ -415,6 +424,8 @@ main {
     transform: scale(1.05);
     animation:pulse 2s infinite; 
 }
+
+
 
 
 
