@@ -94,8 +94,6 @@ main {
 }
 
 .card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
     box-shadow:0 0 30px var(--secondary-color);
     margin-bottom: 3rem;
     justify-content: center;
@@ -119,18 +117,20 @@ main {
 
 
 .card h2 {
-    font-size: clamp(2rem, 2.5vw, 3rem);
-    margin-left: 5rem;
+    margin: 3rem;
+    font-size: clamp(2rem, 10vw, 7rem);
     font-family: var(--heading-font);
     color: var(--accent1-color);
 }
 
 .card p {
-    margin-left: 5rem;
-    font-size: clamp(1.5rem, 2.5vw, 2rem);
+    margin-top: 0;
+    margin-left: 3rem;
+    font-size: clamp(1.5rem, 4vw, 5rem);
     display: flex;
     align-items: center;
     height: 100%;
+    
 }
 
 
