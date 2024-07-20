@@ -21,7 +21,7 @@
 
 
 
-/*desktop view*/
+/*--------------desktop view--------------------*/
 
 @media (min-width: 1024px) {
 
@@ -86,4 +86,11 @@
 
         margin-top: 10px;
     }
+}
+
+/*profile-desktop view--*/
+
+.profilecontent {
+    display: none;
+
 }
