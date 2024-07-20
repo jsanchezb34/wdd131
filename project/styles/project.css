@@ -228,7 +228,7 @@ main {
     padding: 50px; 
     list-style: none;
     margin: 0;
-    gap: 20px; /* Espacio entre los elementos de la cuadrícula */
+    gap: 20px; 
 }
 
 .social-media li {
