@@ -167,6 +167,36 @@ main {
 
 /* For gallery*/
 
+.gallery-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.gallery-nav button {
+    background-color: var(--secondary-color);
+    border: none;
+    color: var(--accent2-color);
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 20px;
+    font-weight:bold;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.gallery-nav button:hover {
+    background-color: var(--accent2-color);
+    color: var(--main-color);
+}
+
+.gallery-nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .gallery img {
     border-radius: 20px;
 }
