@@ -221,8 +221,8 @@ main {
 
 .social-media ul {
     display: grid; 
-    grid-template-rows: repeat(2, 1fr); 
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr; 
     background-color: var(--accent1-color);
     border-radius: 30px;
     padding: 50px; 
@@ -314,13 +314,12 @@ main {
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    animation:pulse 2s infinite;
     transition: background-color 1s ease, transform 0.3s ease;
 }
 
 .contact-form button:hover {
-    background-color: var(--accent2-color); 
-    transform: scale(1.05);
-    animation:pulse 2s infinite;
+    scale:1.1;
 }
 
 /* For profile*/
