@@ -345,10 +345,9 @@ main {
 
 
 .profile-header img {
-    width:50vw;
+    width:30vw;
     height: auto;
-    border-radius: 50%;
-    animation: pulse 2s infinite;
+    border-radius: 30px;
 }
 
 @keyframes pulse {

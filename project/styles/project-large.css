@@ -36,6 +36,14 @@
         padding: 1rem;
     }
 
+    header {
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        height: 800px;
+    }
+
     header nav ul {
         list-style-type: none;
         padding: 0;
@@ -85,6 +93,10 @@
         display: none;
     }
 
+    .card2 {
+        max-width: 1000px;
+    }
+
     .card2 .icons {
         display: flex;
         justify-content: space-around;
@@ -100,6 +112,19 @@
     display: none;
 
 }
+
+.profile-info {
+    max-width: 1000px;
+}
+
+.profile-header {
+    margin: 5rem;
+    display: flex;
+    flex-direction: ;
+    align-items: center;
+    gap: 30px; 
+}
+
 
 
 /*----------contact desktop------------*/
