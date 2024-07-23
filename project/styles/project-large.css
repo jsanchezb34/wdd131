@@ -144,6 +144,16 @@
     margin: 0;
 }
 
+/* gallery desktop*/
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    max-width: 80%;
+  }
+
 }
 
 

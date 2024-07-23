@@ -7,9 +7,9 @@ document.addEventListener('DOMContentLoaded', function () {
             filter: 'web-design',
             projects: [
                 { title: 'Rafting site', mainImage: 'images/rafting-site1.png', 
-                  secondaryImages: ['images/rafting-site2.png', 'images/rafting-site3.png'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+                  secondaryImages: ['images/rafting-site2.png', 'images/rafting-site3.png'], description: 'The site features an engaging design with easy navigation, showcasing detailed information about different rafting trips, including descriptions, images, and safety guidelines. ' },
                 { title: 'Temples album', mainImage: 'images/temples-album1.png', 
-                  secondaryImages: ['images/temples-album2.png', 'images/temples-album3.png'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+                  secondaryImages: ['images/temples-album2.png', 'images/temples-album3.png'], description: 'The site features an intuitive filtering system that allows users to sort images based on construction year, area or size. This makes it easy for visitors to explore and appreciate the diverse architectural details and artistic elements of each temple.' },
             ]
         },
         {
@@ -17,14 +17,14 @@ document.addEventListener('DOMContentLoaded', function () {
             filter: 'photography',
             projects: [
                 { title: 'Cactus', mainImage: 'images/cactus1.png', secondaryImages:
-                ['images/cactus2.png', 'images/cactus3.png'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+                ['images/cactus2.png', 'images/cactus3.png'], description: 'This photo series that highlights the unique and diverse shapes of cacti. Each image captures the intricate details and varied forms of these plants, showcasing their striking textures and patterns.' },
             ]
         },
         {
             title: 'Design',
             filter: 'illustration',
             projects: [
-                { title: 'Fundraising Week Campaign', mainImage: 'images/design2.png', secondaryImages: ['images/design3.png', 'images/design4.png' ], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+                { title: 'Fundraising Week Campaign', mainImage:'images/design2.png', secondaryImages: ['images/design4.png', 'images/design3.png'] ,description: 'The project involved creating visually compelling graphics that effectively communicate the campaigns message and appeal.' },
             ]
         }
     ];
