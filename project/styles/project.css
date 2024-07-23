@@ -228,11 +228,13 @@ main {
     order: 2;
 }
 
-.gallerycard .secondary-images {
-    order: 3;}
+
+    /*------------------------*/
+
+    
 
 
-/* For contact*/
+/* -------------For contact------------------*/
 
 /* social media links*/
 
@@ -291,6 +293,8 @@ main {
     font-family: var(--paragraph-font);
     font-size: 1rem;
 }
+
+
 
 /* contact form*/
 
@@ -452,6 +456,8 @@ main {
     transform: scale(1.05);
     animation:pulse 2s infinite; 
 }
+
+
 
 
 

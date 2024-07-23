@@ -6,9 +6,10 @@ document.addEventListener('DOMContentLoaded', function () {
             title: 'Web Design',
             filter: 'web-design',
             projects: [
-                { title: 'Project 1', mainImage: 'https://via.placeholder.com/400x300.png?text=Main+Image+1', secondaryImages: ['https://via.placeholder.com/200x150.png?text=Secondary+Image+1-1', 'https://via.placeholder.com/200x150.png?text=Secondary+Image+1-2'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { title: 'Project 2', mainImage: 'https://via.placeholder.com/400x300.png?text=Main+Image+2', secondaryImages: ['https://via.placeholder.com/200x150.png?text=Secondary+Image+2-1', 'https://via.placeholder.com/200x150.png?text=Secondary+Image+2-2'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { title: 'Project 3', mainImage: 'https://via.placeholder.com/400x300.png?text=Main+Image+3', secondaryImages: ['https://via.placeholder.com/200x150.png?text=Secondary+Image+3-1', 'https://via.placeholder.com/200x150.png?text=Secondary+Image+3-2'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' }
+                { title: 'Rafting site', mainImage: 'images/rafting-site1.png', 
+                  secondaryImages: ['images/rafting-site2.png', 'images/rafting-site3.png'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+                { title: 'Temple', mainImage: 'images/temples-album1', 
+                  secondaryImages: ['images/temples-album2', 'images/temples-album3'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
             ]
         },
         {
