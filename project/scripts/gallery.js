@@ -8,26 +8,23 @@ document.addEventListener('DOMContentLoaded', function () {
             projects: [
                 { title: 'Rafting site', mainImage: 'images/rafting-site1.png', 
                   secondaryImages: ['images/rafting-site2.png', 'images/rafting-site3.png'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { title: 'Temple', mainImage: 'images/temples-album1', 
-                  secondaryImages: ['images/temples-album2', 'images/temples-album3'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+                { title: 'Temples album', mainImage: 'images/temples-album1.png', 
+                  secondaryImages: ['images/temples-album2.png', 'images/temples-album3.png'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
             ]
         },
         {
             title: 'Photography',
             filter: 'photography',
             projects: [
-                { title: 'Project 4', mainImage: 'https://via.placeholder.com/400x300.png?text=Main+Image+4', secondaryImages: ['https://via.placeholder.com/200x150.png?text=Secondary+Image+4-1', 'https://via.placeholder.com/200x150.png?text=Secondary+Image+4-2'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { title: 'Project 5', mainImage: 'https://via.placeholder.com/400x300.png?text=Main+Image+5', secondaryImages: ['https://via.placeholder.com/200x150.png?text=Secondary+Image+5-1', 'https://via.placeholder.com/200x150.png?text=Secondary+Image+5-2'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { title: 'Project 6', mainImage: 'https://via.placeholder.com/400x300.png?text=Main+Image+6', secondaryImages: ['https://via.placeholder.com/200x150.png?text=Secondary+Image+6-1', 'https://via.placeholder.com/200x150.png?text=Secondary+Image+6-2'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' }
+                { title: 'Cactus', mainImage: 'images/cactus1.png', secondaryImages:
+                ['images/cactus2.png', 'images/cactus3.png'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
             ]
         },
         {
-            title: 'Illustration',
-            filter: 'illustration',
+            title: 'Design',
+            filter: 'Advertising Campaign',
             projects: [
-                { title: 'Project 7', mainImage: 'https://via.placeholder.com/400x300.png?text=Main+Image+7', secondaryImages: ['https://via.placeholder.com/200x150.png?text=Secondary+Image+7-1', 'https://via.placeholder.com/200x150.png?text=Secondary+Image+7-2'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { title: 'Project 8', mainImage: 'https://via.placeholder.com/400x300.png?text=Main+Image+8', secondaryImages: ['https://via.placeholder.com/200x150.png?text=Secondary+Image+8-1', 'https://via.placeholder.com/200x150.png?text=Secondary+Image+8-2'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-                { title: 'Project 9', mainImage: 'https://via.placeholder.com/400x300.png?text=Main+Image+9', secondaryImages: ['https://via.placeholder.com/200x150.png?text=Secondary+Image+9-1', 'https://via.placeholder.com/200x150.png?text=Secondary+Image+9-2'], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' }
+                { title: 'Fundraising Week Campaign', mainImage: 'images/design2.png', secondaryImages: ['images/design3.png', 'images/design4.png' ], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
             ]
         }
     ];
