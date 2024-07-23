@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         },
         {
             title: 'Design',
-            filter: 'Advertising Campaign',
+            filter: 'illustration',
             projects: [
                 { title: 'Fundraising Week Campaign', mainImage: 'images/design2.png', secondaryImages: ['images/design3.png', 'images/design4.png' ], description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
             ]
