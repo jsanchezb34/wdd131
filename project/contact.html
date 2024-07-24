@@ -53,6 +53,15 @@
         </section>
     </main>
     <footer>
+        <p>&copy; <span id="currentyear"></span> Jose Sánchez // Santa Cruz, Bolivia</p>
+        <p>Last modified: <span id="lastmodified"></span></p>
     </footer>
+    <script defer src="scripts/temples.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          document.getElementById('currentyear').textContent = new Date().getFullYear();
+          document.getElementById('lastmodified').textContent = document.lastModified; 
+        });
+    </script>
 </body>
 </html>
