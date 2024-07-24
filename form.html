@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>week05: Product review form</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <div class="container">
+        <form action="review.html" method="get" id="product-review-form">
+            <h1>Product Review</h1>
+            <div class="form-group">
+                <label for="product-name">Product Name</label>
+                <select id="product-name" name="product-name" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="overall-rating">Overall Rating</label>
+                <div class="rating">
+                    <input type="radio" id="star1" name="overall-rating" value="1" required>
+                    <label for="star1">☆</label>
+                    <input type="radio" id="star2" name="overall-rating" value="2">
+                    <label for="star2">☆</label>
+                    <input type="radio" id="star3" name="overall-rating" value="3">
+                    <label for="star3">☆</label>
+                    <input type="radio" id="star4" name="overall-rating" value="4">
+                    <label for="star4">☆</label>
+                    <input type="radio" id="star5" name="overall-rating" value="5">
+                    <label for="star5">☆</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="installation-date">Date of Installation</label>
+                <input type="date" id="installation-date" name="installation-date" required>
+            </div>
+            <div class="form-group">
+                <label for="useful-features">Which features did you find useful in the product?</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="durability" name="useful-features" value="Durability">
+                    <label for="durability">Durability</label><br>
+                    <input type="checkbox" id="ease-of-use" name="useful-features" value="Ease of Use">
+                    <label for="ease-of-use">Ease of Use</label><br>
+                    <input type="checkbox" id="performance" name="useful-features" value="Performance">
+                    <label for="performance">Performance</label><br>
+                    <input type="checkbox" id="design" name="useful-features" value="Design">
+                    <label for="design">Design</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="written-review">Written Review (Optional)</label>
+                <textarea id="written-review" name="written-review"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="user-name">Your Name (Optional)</label>
+                <input type="text" id="user-name" name="user-name">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Post Review">
+            </div>
+        </form>
+        <footer>
+            <p>&copy; <span id="currentyear"></span> Jose Sánchez // Santa Cruz, Bolivia</p>
+            <p>Last modified: <span id="lastmodified"></span></p>
+        </footer>
+        <script defer src="scripts/temples.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              document.getElementById('currentyear').textContent = new Date().getFullYear();
+              document.getElementById('lastmodified').textContent = document.lastModified; 
+            });
+        </script>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>
